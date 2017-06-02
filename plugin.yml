@@ -1,0 +1,27 @@
+main: q2p.quickclickmapper.Mapper
+name: QuickClick Building Plugin
+version: 1.0
+author: q2p
+description: Allows to build maps for QuickClick server.
+commands:
+  createbox:
+    description: Create building box
+    usage: /createbox <x size> <z size> <z size>
+  removebox:
+    description: Remove building box
+    usage: /removebox
+  buildkit:
+    description: Gives building kit
+    usage: /buildkit
+  day:
+    description: Resets time
+    usage: /day
+  parse:
+    description: Save map to file
+    usage: /parse <filename>
+  load:
+    description: Load map from file
+    usage: /load <filename>
+  skull:
+    description: forfun
+    usage: /skull <skin>
